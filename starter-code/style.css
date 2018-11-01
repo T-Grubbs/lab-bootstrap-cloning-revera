@@ -1,0 +1,101 @@
+
+
+.the-nav{
+    
+    display: flex;
+    align-items: center;
+    height: 11.5vh;
+
+}
+
+.the-nav-links {
+    padding-left: 120px;    
+}
+
+.img-cover {
+    overflow: url('./img/overlay.png');
+    background-position: cover;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item{
+    filter: grayscale();
+}
+
+ .carousel a{
+    background-color: red;
+    height: 13vh;
+    width: 3.4vw;
+    display: flex;
+    margin-top: 38.5vh;
+}
+
+
+
+
+glyphicon-glass:before {
+    content: "\e001";
+}
+
+.glyphicon:before {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+.widgets span {
+    border: 5px solid #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: block;
+    line-height: 65px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.widgets h3 {
+    color: white;
+}
+
+
+.project-div {
+    padding-top: 65px;
+    
+}
+
+hr {
+    width: 75vw;
+}
+ h6 {
+     font-size: 14px;
+ }
+.projects-display {
+    display: flex;
+}
+
+.project-section {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-section img {
+    width: 280px;
+    height: 200px;
+}
